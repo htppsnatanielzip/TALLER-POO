@@ -75,7 +75,7 @@ El proyecto está dividido en varios paquetes y clases:
 
 - Genera y muestra un listado de todos los productos en el inventario, mostrando la información completa de cada uno.
 
-###Aplicación de los Principios de Poo en este proyecto!
+## Aplicación de los Principios de Poo en este proyecto!
 
 1. **Encapsulación**:
 
