@@ -77,7 +77,7 @@ El proyecto está dividido en varios paquetes y clases:
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas. Si tienes alguna sugerencia o encuentras algún problema, por favor abre un issue o crea un pull request.
+Daniel Diaz (htppsnatanielzip)
 
 ## Licencia
 
