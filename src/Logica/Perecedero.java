@@ -1,17 +1,19 @@
 package Logica;
 
+import java.time.LocalDate;
+
 public class Perecedero extends Producto {
 
-    private int fechaDeCaducidad;
+    private LocalDate fechaDeCaducidad;
     private double temperaturaDeAlmacenamiento;
 
-    public Perecedero(int ID, String Nombre, double Precio, int cantidadEnInventario, int fechaDeCaducidad, double temperaturaDeAlmacenamiento) {
-        super(ID, Nombre, Precio, cantidadEnInventario); // Llamada correcta al constructor de Producto
+    public Perecedero(int ID, String Nombre, double Precio, int cantidadEnInventario, LocalDate fechaDeCaducidad, double temperaturaDeAlmacenamiento) {
+        super(ID, Nombre, Precio, cantidadEnInventario);
         this.fechaDeCaducidad = fechaDeCaducidad;
         this.temperaturaDeAlmacenamiento = temperaturaDeAlmacenamiento;
     }
 
-    public int getFechaDeCaducidad() {
+    public LocalDate getFechaDeCaducidad() {
         return fechaDeCaducidad;
     }
 
@@ -19,7 +21,7 @@ public class Perecedero extends Producto {
         return temperaturaDeAlmacenamiento;
     }
 
-    public void setFechaDeCaducidad(int fechaDeCaducidad) {
+    public void setFechaDeCaducidad(LocalDate fechaDeCaducidad) {
         this.fechaDeCaducidad = fechaDeCaducidad;
     }
 
@@ -34,3 +36,4 @@ public class Perecedero extends Producto {
         System.out.println("Temperatura del producto: " + temperaturaDeAlmacenamiento);
     }
 }
+
